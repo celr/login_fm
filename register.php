@@ -14,7 +14,9 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/pwdvalidation.js"></script>
         
         <!-- fonts -->
         <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
@@ -26,14 +28,24 @@
 
         <!-- Add your site or application content here -->
         <header>
-			<a href="index.php"></a><img src="img/profilepic.png" alt="A picture of me" title="¡hola!" /></a>
-			<h1>This is just a PHP login excercise.</h1>
-			<h2>(But a pretty good looking one)</h2>
+			<a href="index.php"></a><img src="img/regpic.png" alt="Registration" title="Nice to meet you!" /></a>
+			<h1>Registration</h1>
+			<h2>I promise I won't do anything bad with your information.</h2>
         </header>
 		<div id="main">
-			<a href="register.php"><img src="img/regicon.png" alt="register" title="Register first" /></a>
-			<a href="login.php"><img src="img/logicon.png" alt="login" title="Login now" /></a>
-			<a href="https://github.com/raulpineda/login_fm/archive/master.zip" target="_blank"><img src="img/dowicon.png" alt="download" title="Download the code" /></a>
+		<form action="registeruser.php" method="post" id="regform"> 
+			<fieldset>
+			<label for="username"><span class="reqinput">* </span>Username:</label> <input type="text" name="username" id="username" value="" onblur="isuser();" /> 
+			<br />
+			<label for="email">Email:</label> <input type="text" name="email" value="" /> 
+			<br /> 
+			<label for="password"><span class="reqinput">* </span>Password:</label>	<input type="password" name="password" id="password" value="" onblur="ispwd();" /> 
+			<br />
+			<label for="password-check"><span class="reqinput">* </span>Confirm:</label>	<input type="password" name="password-check" id="password-check" value="" onchange="matchpwd();" />
+			<br />
+			<input type="submit" value="Register" id="submitBtn" disabled="disabled" /> 
+			</fieldset>
+		</form>	
 		</div>
 		<footer>
 			This is a small excercise for my application to work in Fynske Medier.<br />
@@ -53,3 +65,7 @@
         </script>
     </body>
 </html>
+
+<script type="text/javascript">
+	
+</script>

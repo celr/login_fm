@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Raúl Pineda</title>
+        <title>Welcome | Raúl Pineda</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -26,14 +26,15 @@
 
         <!-- Add your site or application content here -->
         <header>
-			<a href="index.php"></a><img src="img/profilepic.png" alt="A picture of me" title="¡hola!" /></a>
-			<h1>This is just a PHP login excercise.</h1>
-			<h2>(But a pretty good looking one)</h2>
+			<a href="index.php"></a><img src="img/profilepic.png" alt="A picture of me" title="hallo!" /></a>
+			<h1>Thanks for checking my code!</h1>
+			<h2>There's not much more in this page but you can:</h2>
         </header>
-		<div id="main">
-			<a href="register.php"><img src="img/regicon.png" alt="register" title="Register first" /></a>
-			<a href="login.php"><img src="img/logicon.png" alt="login" title="Login now" /></a>
-			<a href="https://github.com/raulpineda/login_fm/archive/master.zip" target="_blank"><img src="img/dowicon.png" alt="download" title="Download the code" /></a>
+		<div id="connect">
+			<a id="linkedin" href="http://www.linkedin.com/profile/view?id=56208737" target="_blank"><img src="img/linkedin.png" alt="LinkedIn" />&nbsp;Connect with me</a><br />
+			<a id="xing" href="https://www.xing.com/profile/Raul_Pineda4" target="_blank" ><img src="img/xing.png" alt="Xing" />&nbsp;Deutsch sprechen? Verbinden Sich mit mir!</a><br />
+			<a id="github" href="https://github.com/raulpineda" target="_blank"><img src="img/github.png" alt="Github" />&nbsp;See more of my code</a><br />
+			<a id="behance" href="http://www.behance.net/raulpineda" target="_blank"><img src="img/behance.png" alt="Behance" />&nbsp;Or a bit of my design</a>
 		</div>
 		<footer>
 			This is a small excercise for my application to work in Fynske Medier.<br />
