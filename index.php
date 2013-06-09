@@ -7,10 +7,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Raúl Pineda</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -28,7 +24,7 @@
         <header>
 			<a href="index.php"></a><img src="img/profilepic.png" alt="A picture of me" title="¡hola!" /></a>
 			<h1>This is just a PHP login excercise.</h1>
-			<h2>(But a pretty good looking one)</h2>
+			<h2>(But a good looking one)</h2>
         </header>
 		<div id="main">
 			<a href="register.php"><img src="img/regicon.png" alt="register" title="Register first" /></a>
@@ -43,13 +39,5 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
     </body>
 </html>
